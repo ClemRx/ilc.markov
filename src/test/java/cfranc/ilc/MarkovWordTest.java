@@ -25,5 +25,7 @@ public class MarkovWordTest {
 		double actual = m.getSimilarity(when2SimpleWords[0],when2SimpleWords[0], 4);
 		assertEquals(expected, actual,0.000000001);		
 	}	
+        
+
 
 }
